@@ -3,7 +3,7 @@
 On va expliuqer commentt adapter une composition docker bla bla bla
 
 ## Step 1: clone the official repo
-``` 
+``` bash
 git clone 
 --recurse-submodules https://github.com/georchestra/docker.git 
 cd docker

@@ -55,3 +55,13 @@ certificatesResolvers:
         entryPoint: web
 
 ping: {}
+```
+
+## Step 3: Update accordingly traefik config in docker-compose.override.yml 
+In docker-compose.override.yml, 
+- On peut commenter le bloc 'traekif-me-certifacte-downloader'
+- pour le service 'georchestra-127-0-11.traefik.me' : 
+  - commente la section 'depends_on' 
+  - change la section des volumes ... blablabla pour : 
+
+  
